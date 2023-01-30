@@ -1,23 +1,16 @@
 import Footer from "../Components/Footer"
+import Breadcrum from "../Components/Breadcrum"
+import Menu from "../Components/Menu"
 import Header from "../Components/Header"
 
 export default function Home() {
     return (
         <>
             <Header />
-            <aside>
-                <nav>
-                    <ul>Guitarer</ul>
-                    <ul>Basser</ul>
-                    <ul>Handmade</ul>
-                    <ul>Trommer</ul>
-                    <ul>Percussion</ul>
-                    <ul>Stryg & Blæs</ul>
-                    <ul>Brands</ul>
-                </nav>
-            </aside>
+            <Breadcrum />
+            <Menu />
             <main>
-                somthing
+                home
             </main>
             <Footer />
         </>
