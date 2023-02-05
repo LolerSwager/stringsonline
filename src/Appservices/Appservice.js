@@ -3,7 +3,7 @@ import authHeader from "./auth-header"
 
 //? https://prnt.sc/Q6_jNB8xuUBu
 //? apiName is the defult pathname
-const apiName = "bakeonline"
+const apiName = "stringsonline"
 const apiUrl = "https://api.mediehuset.net"
 const baseUrl = new URL(apiName, apiUrl)
 

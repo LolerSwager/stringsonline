@@ -1,6 +1,8 @@
 import styled from "styled-components"
 
 const StyledBreadcrum = styled.div`
+    grid-area: breadcrum;
+    background-color: yellow;
     hr {
         border: 0px;
         height: 1px;

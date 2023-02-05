@@ -5,6 +5,7 @@ import phoneIcon from "../Assets/images/phone-icon.png"
 import CartIcon from "../Assets/images/cart-icon.png"
 
 const StyledHeader = styled.header`
+    grid-area: header;
     nav {
         ul {
             display: flex;
@@ -45,8 +46,7 @@ export default function Header() {
                     <div>
                         <input type="text" placeholder="indtast søgeord" />
                         <button>
-                            {" "}
-                            <i class="fa-solid fa-arrow-right"></i>{" "}
+                            <i class="fa-solid fa-arrow-right"></i>
                         </button>
                     </div>
                 </div>

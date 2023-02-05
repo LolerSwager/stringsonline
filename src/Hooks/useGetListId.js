@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import AppService from "../Appservices/Appservice"
 
-export const useGetListId = (endpoint, id,key) => {
+export const useGetListId = (endpoint, id, key) => {
     const [state, setState] = useState([])
     useEffect(() => {
         const fetchApiData = async () => {
